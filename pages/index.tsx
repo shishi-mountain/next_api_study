@@ -17,8 +17,8 @@ export const getStaticProps = async() => {
 
 type Props = {
   allPostsData: {
-    id: String,
-    title: String,
+    id: string,
+    title: string,
     date: string
   }[]
 }
